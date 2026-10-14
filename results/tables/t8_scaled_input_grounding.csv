@@ -1,9 +1,0 @@
-regime,num_cfs,n_stores,actionable_grounding_mean,actionable_grounding_ci,leaky_cf_rate
-constrained,2,120,1.0,"[1.000, 1.000]",0.0
-constrained,4,120,1.0,"[1.000, 1.000]",0.0
-constrained,6,120,1.0,"[1.000, 1.000]",0.0
-constrained,8,120,1.0,"[1.000, 1.000]",0.0
-unconstrained,2,120,0.532,"[0.499, 0.564]",0.908
-unconstrained,4,120,0.661,"[0.633, 0.687]",0.908
-unconstrained,6,120,0.679,"[0.653, 0.704]",0.908
-unconstrained,8,120,0.716,"[0.687, 0.741]",0.908

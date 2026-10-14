@@ -1,3 +1,0 @@
-Case,District,Changed_features,Immutable_in_input,Grounding_coverage,Nonactionable_leakage,Structural_completeness,Strategy_chars
-case1,Children's Grand Park Station,1,0,1.0,0.0,1.0,4682
-case2,Itaewon (Itaewon Station),8,6,1.0,1.0,1.0,4873

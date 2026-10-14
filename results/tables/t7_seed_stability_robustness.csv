@@ -1,3 +1,0 @@
-regime,proximity_mean,proximity_std,sparsity_mean,sparsity_std,actionability_mean,actionability_std
-constrained,-25.458,4.95,0.948,0.006,1.0,0.0
-unconstrained,-48.351,51.315,0.943,0.004,0.672,0.112

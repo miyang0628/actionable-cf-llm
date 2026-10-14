@@ -1,0 +1,31 @@
+Rank,Feature,Mean_Abs_SHAP,Group,Actionability
+1,Age_40_Sales_Amount,0.117820606,Sales,actionable
+2,Age_50_Sales_Amount,0.036856543,Sales,actionable
+3,Tuesday_Sales_Amount,0.03413348,Sales,actionable
+4,TimeSlot_21-24_Sales_Amount,0.024386214,Sales,actionable
+5,Age_20_Sales_Amount,0.022578267,Sales,actionable
+6,Age_50_Sales_Count,0.020337675,Sales,actionable
+7,TimeSlot_17-21_Sales_Amount,0.018627178,Sales,actionable
+8,Female_Age_10_Working_Population,0.016667066,Working pop.,immutable
+9,Age_10_Floating_Population,0.015611058,Floating pop.,immutable
+10,Male_Age_30_Resident_Population,0.015108875,Resident pop.,immutable
+11,Male_Sales_Amount,0.011937277,Sales,actionable
+12,Female_Age_20_Resident_Population,0.011216705,Resident pop.,immutable
+13,Female_Age_10_Resident_Population,0.010565451,Resident pop.,immutable
+14,Age_30_Sales_Amount,0.010444009,Sales,actionable
+15,Age_10_Sales_Count,0.0098156715,Sales,actionable
+16,Sunday_Sales_Amount,0.00958161,Sales,actionable
+17,Male_Age_40_Working_Population,0.0077406806,Working pop.,immutable
+18,Weekend_Sales_Amount,0.006639199,Sales,actionable
+19,Age_60_Plus_Sales_Amount,0.006493125,Sales,actionable
+20,TimeSlot_14-17_Sales_Count,0.0063354443,Sales,actionable
+21,TimeSlot_11-14_Sales_Count,0.0060003637,Sales,actionable
+22,Thursday_Sales_Amount,0.0058664256,Sales,actionable
+23,Age_60_Plus_Floating_Population,0.0058507556,Floating pop.,immutable
+24,Male_Age_10_Resident_Population,0.005732565,Resident pop.,immutable
+25,Male_Age_50_Resident_Population,0.0056903916,Resident pop.,immutable
+26,Female_Age_30_Resident_Population,0.005610293,Resident pop.,immutable
+27,TimeSlot_06-11_Sales_Count,0.0032991294,Sales,actionable
+28,Female_Age_60_Plus_Working_Population,0.0032750256,Working pop.,immutable
+29,Monday_Sales_Amount,0.003091926,Sales,actionable
+30,Friday_Sales_Amount,0.0021903645,Sales,actionable

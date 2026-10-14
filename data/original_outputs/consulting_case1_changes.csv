@@ -1,0 +1,3 @@
+﻿store_id,service_type,trade_area_name,closure,status_change,Feature,Original Value,Counterfactual Value,Absolute Change
+ID_1197,General Restaurant,Children's Grand Park Station,0,Closure -> Operating,Age_40_Sales_Amount,76207824.0,1078229904.7,1002022080.7
+ID_1197,General Restaurant,Children's Grand Park Station,0,Closure -> Operating,Age_40_Sales_Amount,76207824.0,2124021076.6,2047813252.6

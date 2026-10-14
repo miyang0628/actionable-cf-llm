@@ -51,7 +51,8 @@ Two coupled contributions:
 │   ├── 01_feature_taxonomy_and_actionability_audit.ipynb
 │   ├── 02_actionability_constrained_dice.ipynb
 │   ├── 02b_seed_stability_robustness.ipynb
-│   └── 03_llm_strategy_evaluation.ipynb
+│   ├── 03_llm_strategy_evaluation.ipynb
+│   └── 04_stratified_llm_audit.ipynb
 ├── results/
 │   ├── figures/                          # f1–f8, grayscale, 600 dpi, PNG + PDF
 │   └── tables/                           # all result CSVs (committed; see §5)
@@ -149,6 +150,18 @@ Includes a three-tier LLM-as-judge harness and a prompt-only baseline (API-gated
 → `t6_strategy_faithfulness.csv`, `t7_confidence_gating.csv`,
 `t8_scaled_input_grounding.csv`, (`t9_llm_judge_scores.csv` when run with a key),
 `f7`–`f8`.
+
+**04 — Stratified audit (full consulting-valid population).**
+Repeats the counterfactual-basis audit over all 164 closed-and-predicted-to-close
+restaurants (7 districts), broken down by district type with bootstrap CIs and
+paired Wilcoxon tests. Unconstrained actionable-grounding 0.593 (Developed
+Commercial Area, leaky 88.1%) and 0.319 (Special Tourist Zone, leaky 100%) vs.
+1.000 / 0% constrained (p≈9e-25 and 8e-07). Reports the honest coverage limit (a
+weak predictor confidently flags closures in only two of four district types).
+Includes a stratified LLM generation + judge loop (3 conditions × 3 tiers,
+API-gated). → `t9_grounding_by_district.csv`, `t10_grounding_by_type.csv`,
+`t11_grounding_paired_by_type.csv`, (`t12_output_audit_by_condition.csv` with key),
+`f9`–`f10` (`f11` with key).
 
 ---
 

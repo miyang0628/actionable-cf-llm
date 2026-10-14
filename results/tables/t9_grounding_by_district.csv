@@ -1,0 +1,13 @@
+regime,district,n,actionable_grounding,ag_ci,leaky_rate
+constrained,Abgujeong Yeog,16,1.0,"[1.000, 1.000]",0.0
+constrained,Gangnam Ma Iseu Gwangwangteuggu,8,1.0,"[1.000, 1.000]",0.0
+constrained,Gosogteomineol(Gosogteomineol Yeog),39,1.0,"[1.000, 1.000]",0.0
+constrained,Mogdongsinsigaji,43,1.0,"[1.000, 1.000]",0.0
+constrained,Myeongdong Namdaemun Bugchangdong Dadong Mugyodong Gwangwangteuggu,21,1.0,"[1.000, 1.000]",0.0
+constrained,Samseong Yeog,18,1.0,"[1.000, 1.000]",0.0
+unconstrained,Abgujeong Yeog,16,0.5,"[0.500, 0.500]",1.0
+unconstrained,Gangnam Ma Iseu Gwangwangteuggu,8,1.0,"[1.000, 1.000]",0.0
+unconstrained,Gosogteomineol(Gosogteomineol Yeog),39,1.0,"[1.000, 1.000]",0.0
+unconstrained,Mogdongsinsigaji,43,0.5,"[0.500, 0.500]",1.0
+unconstrained,Myeongdong Namdaemun Bugchangdong Dadong Mugyodong Gwangwangteuggu,21,0.5,"[0.500, 0.500]",1.0
+unconstrained,Samseong Yeog,18,0.5,"[0.500, 0.500]",1.0

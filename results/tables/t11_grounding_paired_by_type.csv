@@ -1,0 +1,3 @@
+type,n,grounding_unconstrained,grounding_constrained,diff,wilcoxon_p
+Developed Commercial Area,116,0.668,1.0,0.332,1.7095795875991002e-18
+Special Tourist Zone,29,0.638,1.0,0.362,4.592833711753968e-06

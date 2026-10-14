@@ -1,0 +1,17 @@
+regime,w_validity,w_proximity,optimal_num_cfs
+constrained,0.25,0.15,2
+unconstrained,0.25,0.15,6
+constrained,0.25,0.3,2
+unconstrained,0.25,0.3,6
+constrained,0.25,0.45,2
+unconstrained,0.25,0.45,8
+constrained,0.4,0.15,2
+unconstrained,0.4,0.15,6
+constrained,0.4,0.3,2
+unconstrained,0.4,0.3,6
+constrained,0.4,0.45,2
+unconstrained,0.4,0.45,8
+constrained,0.55,0.15,2
+unconstrained,0.55,0.15,6
+constrained,0.55,0.3,2
+unconstrained,0.55,0.3,8
